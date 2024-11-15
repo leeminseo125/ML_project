@@ -3,10 +3,19 @@
 # titanic_survive
 
 ## 필수 다운로드 명령어
-- conda create -n titanic_survive python=3.9
-- conda install kagglehub
-- conda install < requirements.txt
-
+### 본 환경은 poetry로 구성되었으나 pyenv, conda 가상 환경도 사용 가능함
+### 아나콘다 사용시
+```bash
+conda create -n titanic_survive python=3.11
+conda activate titanic_survive
+conda install < requirements.txt
+```
+### pyenv 사용시
+```bash
+pip -m venv .venv
+.venv/Script/Activate.ps1
+pip install < requirements.txt
+```
 ## 대표적인 라이브러리
 1. Pandas
 2. matplotlib
@@ -18,7 +27,7 @@
 
 training data set and testing data set are given by Kaggle
 you can download from  
-my github [https://github.com/minsuk-heo/kaggle-titanic/tree/master](https://github.com/minsuk-heo/kaggle-titanic)  
+my github [https://github.com/leeminseo125/ML_project/tree/main/data](https://github.com/leeminseo125/ML_project)  
 or you can download from kaggle directly [kaggle](https://www.kaggle.com/c/titanic/data)  
 
 ## 각 데이터 시각화 및 분석
@@ -29,3 +38,6 @@ or you can download from kaggle directly [kaggle](https://www.kaggle.com/c/titan
 
 ## E-mail
 dlalstj46@syuin.ac.kr
+
+## Github
+[https://github.com/leeminseo125]
