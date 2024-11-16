@@ -5,17 +5,21 @@
 ## 필수 다운로드 명령어
 ### 본 환경은 poetry로 구성되었으나 pyenv, conda 가상 환경도 사용 가능함
 ### 아나콘다 사용시
+
 ```bash
 conda create -n titanic_survive python=3.11
 conda activate titanic_survive
-conda install < requirements.txt
+pip install < requirements.txt
 ```
+
 ### pyenv 사용시
+
 ```bash
 pip -m venv .venv
 .venv/Script/Activate.ps1
 pip install < requirements.txt
 ```
+
 ## 대표적인 라이브러리
 1. Pandas
 2. matplotlib
